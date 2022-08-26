@@ -1,0 +1,6 @@
+python -m venv vrtenv
+vrtenv\Scripts\activate.bat
+
+pip install -r requirements.txt
+
+python pokemon.py

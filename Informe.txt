@@ -1,0 +1,14 @@
+General:
+
+* Archivo pokemon.py contiene el punto 1,2,3 en lenguaje python.
+* Archivo consultas.txt contiene el punto 4, consultas realizadas en MySQL.
+* Archivo requirements.txt contiene todas las librerias necesarias para ejecutar el script.
+* Archivo 4.2.csv contiene todas las librerias necesarias para ejecutar el script.
+* Archivo log.txt contiene algunos comandos usados para el entorno virtual.
+
+
+Anexos:
+
+* Archivo 4.1.csv, en el cual se solicita pokemones con mas de dos tipos, no devuelve nada, debido a que estos solo tienen dos tipos, por lo tanto voy a anexan las busquedas con mayores de un tipo solo para probar el funcionamiento.
+
+* Version de python 3.10.5

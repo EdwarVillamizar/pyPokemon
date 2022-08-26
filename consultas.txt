@@ -1,0 +1,14 @@
+﻿pokemones que tienen más de dos tipos:
+
+SELECT id, imagen, habilidades, estadisticas, tipo
+FROM perfil
+WHERE (CHAR_LENGTH(tipo) - CHAR_LENGTH(REPLACE(tipo, ',', '')) + 1) > 2
+
+
+pokemones con el tipo que más se repite.
+
+SELECT id, imagen, habilidades, estadisticas, tipo FROM perfil INNER JOIN(SELECT tipo, COUNT(tipo) AS total
+FROM perfil 
+GROUP BY tipo
+ORDER BY total DESC
+LIMIT 1) max USING (tipo);
